@@ -21,3 +21,9 @@
  1. java - Java
  1. db - データベース
  1. thread - スレッドとロック
+
+### まとめ
+- str
+ - charはintとして扱える
+ - ASCIIは128文字
+ - (adv) intは32bit、bit演算を使うと別解あり
