@@ -1,5 +1,7 @@
 package main.java.str;
 
+import java.util.Arrays;
+
 public class CheckPermutated {
     public boolean isPermutated(String a, String b) {
         int[] box = new int[128];
@@ -20,4 +22,17 @@ public class CheckPermutated {
         return true;
     }
     
+    public boolean isPermutated2(String s, String t) {
+        if (s.length() != t.length()) return false;
+        if (sort(s).equals(sort(t))) {
+            return true;
+        }
+        return false;
+    }
+    
+    private String sort(String s) {
+        char[] content = s.toCharArray();
+        Arrays.sort(content);
+        return new String(content);
+    }
 }
