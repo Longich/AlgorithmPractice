@@ -1,4 +1,4 @@
-package main.java.str;
+package str;
 
 public class CheckPalindrome {
     public boolean isPalindrome(String s) {

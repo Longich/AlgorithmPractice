@@ -1,4 +1,4 @@
-package main.java.str;
+package str;
 
 import java.util.Arrays;
 
@@ -21,7 +21,7 @@ public class CheckPermutated {
         }
         return true;
     }
-    
+
     public boolean isPermutated2(String s, String t) {
         if (s.length() != t.length()) return false;
         if (sort(s).equals(sort(t))) {
@@ -29,7 +29,7 @@ public class CheckPermutated {
         }
         return false;
     }
-    
+
     private String sort(String s) {
         char[] content = s.toCharArray();
         Arrays.sort(content);

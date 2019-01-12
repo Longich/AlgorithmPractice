@@ -1,4 +1,4 @@
-package main.java.str;
+package str;
 
 public class CheckCharDuplication {
     public boolean isDuplicated(String s) {

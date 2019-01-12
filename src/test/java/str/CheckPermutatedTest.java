@@ -1,15 +1,13 @@
-package test.java.str;
+package str;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.str.CheckPermutated;
-
 public class CheckPermutatedTest {
     CheckPermutated checkPermutated;
-    
+
     @Before
     public void setUp() throws Exception {
         checkPermutated = new CheckPermutated();
@@ -24,7 +22,7 @@ public class CheckPermutatedTest {
     public void testFalse() {
         assertFalse(checkPermutated.isPermutated("test", "tesst"));
     }
-    
+
     @Test
     public void testTrue2() {
         assertTrue(checkPermutated.isPermutated("hello", "loelh"));

@@ -1,4 +1,4 @@
-package main.java.str;
+package str;
 
 public class ReplaceSpace {
     public String replace(String s) {

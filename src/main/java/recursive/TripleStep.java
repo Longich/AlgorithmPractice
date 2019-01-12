@@ -1,4 +1,4 @@
-package main.java.recursive;
+package recursive;
 
 import java.util.HashMap;
 import java.util.Map;

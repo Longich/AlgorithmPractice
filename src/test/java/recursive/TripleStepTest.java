@@ -1,15 +1,13 @@
-package test.java.recursive;
+package recursive;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.recursive.TripleStep;
-
 public class TripleStepTest {
     TripleStep tripleStep;
-    
+
     @Before
     public void setUp() throws Exception {
         tripleStep = new TripleStep();

@@ -1,15 +1,13 @@
-package test.java.str;
+package str;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.str.ReplaceSpace;
-
 public class ReplaceSpaceTest {
     ReplaceSpace replaceSpace;
-    
+
     @Before
     public void setUp() throws Exception {
         replaceSpace = new ReplaceSpace();

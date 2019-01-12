@@ -1,4 +1,4 @@
-package main.java.str;
+package str;
 
 public class CheckAlike {
     public boolean isAlike(String str1, String str2) {
